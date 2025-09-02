@@ -1,5 +1,8 @@
+# About this Repository
+This repository is published as a supplementary material for the presentation delivered by Kohei Fukuda at the JAECS Conference on September 3, 2025.
+
 # Files Description
-- **`20250903_JAECS_presentation_slide.pdf`**: Presentation slides for the JAECS conference presentation on September 3, 2025.
+- **`20250903_JAECS_presentation_slide.pdf`**: Presentation slides for the JAECS Conference presentation.
 
 - **`config.cfg`**: Configuration file for spaCy model training, specifying parameters for the transformer-based NER (Named Entity Recognition) model used for VAC pattern identification. 
 
@@ -10,8 +13,8 @@
 - **`rule-based_vac_extractor.py`**: Python script for rule-based VAC extraction system using spaCy's `DependencyMatcher`.
 
 # Dataset and Model Availability
-- The training dataset used in this research consists of example sentences from copyrighted materials and is therefore not publicly available. I plan to make it available once permission is obtained from the copyright holders. 
-- The fine-tuned model will be released through Hugging Face after validation.
+- The training dataset contains example sentences from copyrighted materials and therefore cannot be made publicly available without permission. I plan to release it once permission is obtained from the copyright holders.
+- The fine-tuned model will be released on Hugging Face after completing the validation described in the presentation.
 
 # Pattern list
 |No.|Pattern|Examples|

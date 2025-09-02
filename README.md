@@ -1,3 +1,18 @@
+# Files Description
+- **`20250903_JAECS_presentation_slide.pdf`**: Presentation slides for the JAECS conference presentation on September 3, 2025.
+
+- **`config.cfg`**: Configuration file for spaCy model training, specifying parameters for the transformer-based NER (Named Entity Recognition) model used for VAC pattern identification. 
+
+- **`Demo.ipynb`**: Jupyter notebook demonstrating the VAC identification system.
+
+- **`evaluation.py`**: Python script for evaluating the performance of the trained VAC identification model.
+
+- **`rule-based_vac_extractor.py`**: Python script for rule-based VAC extraction system using spaCy's `DependencyMatcher`.
+
+# Dataset and Model Availability
+- The training dataset used in this research consists of example sentences from copyrighted materials and is therefore not publicly available. I plan to make it available once permission is obtained from the copyright holders. 
+- The fine-tuned model will be released through Hugging Face after validation.
+
 # Pattern list
 |No.|Pattern|Examples|
 |---|---|---|
